@@ -5,14 +5,14 @@ pipeline {
             steps{
                 sh "cd webapp"
                 sh "mvn clean "
-                sh "mvn clean install"
+                sh "mvn package"
 
              }
         }
    
 	stage('Test') {
             steps {
-                sh 'cd ../target/' 
+                sh ' echo "test" ' 
                  
             }
         }  
