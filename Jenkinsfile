@@ -11,10 +11,9 @@ pipeline {
         }
    
 	stage('Test') {
-            steps {
-                sh ' echo "test" ' 
-                 
-            }
+          steps{}
+                
+              
         }  
   
      
