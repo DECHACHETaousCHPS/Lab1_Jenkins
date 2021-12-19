@@ -10,11 +10,11 @@ pipeline {
              }
         }
    
-	stage('Test') {
-          steps{}
-                
+
+    
+     
               
-        }  
+      
   
      
 
